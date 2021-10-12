@@ -23,7 +23,7 @@ public class Djikstra {
     // Initialise necessary variables here.
 	Graph graph;
     public Djikstra(Graph graph) {
-    	
+    	this.graph = graph;
     }
 
     public void run() {
